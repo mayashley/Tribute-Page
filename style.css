@@ -1,13 +1,14 @@
 .header {
-  background-color: #b5a6a5;
   height: 150px;
   width: 100%;
-  border: 1px solid black;
   font-family: "Libre Baskerville", serif;
 }
 .image-container {
-  padding: 20px;
-  margin: 100px;
+  padding: 50px;
+  margin: 0px 20px;
+  background-color: white;
+  border: 1px solid black;
+  width: 90%;
 }
 .image-size {
     width: 632px;
@@ -18,6 +19,21 @@
   flex-direction: column;
   align-items: center;
 }
+.text-body {
+  font-size: 20px;
+  width: 50%;
+}
+.quote {
+  font-family: 'Satisfy', cursive;
+  margin-top: 20px;
+}
+.quote > p {
+  font-size: 24px;
+  opacity: 0.6;
+}
+body {
+  background-color: #748fb3; 
+}
 h1 {
   font-size: 36px;
 }
@@ -27,9 +43,20 @@ h2 {
 }
 h3 {
     font-size: 25px;
+    text-decoration: underline;
 }
 p {
     font-size: 16px;
     font-weight: lighter;
     margin: 3px;
+}
+li {
+  padding: 15px 0;
+}
+ul {
+  padding: 0;
+}
+footer {
+  margin: 50px;
+  font-size: 20px;
 }
